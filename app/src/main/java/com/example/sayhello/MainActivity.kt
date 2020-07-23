@@ -13,5 +13,8 @@ class MainActivity : AppCompatActivity() {
 //            textSay.setText("Hello Kotlin!!")
             textSay.text = "Hello Kotlin!!"
         }
+        button.setOnClickListener {
+            textView1.text="Bye~~~"
+        }
     }
 }
